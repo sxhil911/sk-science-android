@@ -36,7 +36,7 @@ jobs:
         run: npm install
 
       - name: Install TypeScript for Capacitor config
-        run: npm install --no-save typescript
+        run: npm install --no-save typescript@5.8.3
 
       - name: Add Android platform
         run: npx cap add android
